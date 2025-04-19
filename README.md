@@ -18,7 +18,6 @@ docker compose up --build
 
 ./mvnw test
 
-
 ## Documentação online (OpenAPI)
 
 http://localhost:8080/swagger-ui/index.html
