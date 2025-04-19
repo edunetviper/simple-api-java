@@ -41,5 +41,5 @@ jobs:
             uses: azure/webapps-deploy@v2
             with:
               app-name: 'fiap-simple-api-dev' 
-              publish-profile: ${{ secrets.AZURE_PROFILEE }}
+              publish-profile: ${{ secrets.AZURE_PROFILE }}
               images: 'ghcr.io/${{ secrets.DOCKERHUB_USERNAME }}/simple-api-java :latest'
